@@ -1,0 +1,81 @@
+{%extends 'base.html' %}
+{% load static %}
+{% block title %}Offers {% endblock title %}
+{% block body %} 
+
+<style>
+	.Pricing{
+    min-height: 100vh;
+    text-align: center;
+    font-size: 40px;
+    background-color:white;
+}
+
+</style>
+<link rel="stylesheet" href="{% static 'C:\Users\Ritika\OneDrive\Desktop\Cave Cafe\gymproject\static\stytle.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'bootstrap-icons/font/bootstrap-icons.css' %}" />
+<section class="container my-4" id="pricing">
+    <h1 class="text-center mb-4 section-heading border-bottom pb-2"> Combo Offers</h1>
+<main>
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+  <div class="col">
+    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+      <div class="card-header py-3 text-white bg-primary border-primary">
+        <h4 class="my-0 fw-normal">Small</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title"><s>760₹</s> <br>650₹  <small class="text-muted fw-light"></small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Grilled pepper pesto</li>
+          <li>Mocha</li>
+          <li>Loaded Nachos</li>
+          <li>Fries</li>
+          <li>Mojito</li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+ 
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-white bg-primary border-primary">
+        
+        <h4 class="my-0 fw-normal ">Medium</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title"><s>1270₹</s> <br>1000₹<small class="text-muted fw-light"></small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Pasta verdure bolognese</li>
+          <li>Shrooms & Mozzarella</li>
+          <li>Pita Pocket</li>
+          <li>Biscoff shake</li>
+          <li>Mint Leaves</li>
+        </ul>
+ 
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+      <div class="card-header py-3 text-white bg-primary border-primary">
+        <h4 class="my-0 fw-normal">Large</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title"><s>1700₹</s> <br>1500₹<small class="text-muted fw-light"></small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Margherita</li>
+          <li>Burn garlic rice with cheese curry</li>
+          <li>Falafel combo</li>
+          <li>Sweet lips</li>
+          <li>Cave Special shake</li>
+        </ul>
+ 
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+</section>
+{% endblock body %}

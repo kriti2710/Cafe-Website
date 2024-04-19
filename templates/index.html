@@ -1,0 +1,388 @@
+{% extends 'base.html' %} 
+{% block title %}index{% endblock title %}
+{% block body %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee Shop</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'C:\Users\Ritika\OneDrive\Desktop\Cave Cafe\gymproject\static\stytle.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+</head>
+<body>
+  <div class="all-content">
+   
+  
+
+<!-- home section -->
+   <section id="home">
+    <div class="content">
+      <h3>Start Your Day With a <br> Fresh Coffee</h3>
+     
+      
+    </div>
+   </section>
+
+<!-- home section -->
+
+<!-- about section -->
+<div class="about" id="about">
+  <div class="container">
+  <div class="heading">About <span>Us</span></div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="{% static 'images/about.png'  alt="" %}">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>What Makes Our Coffee Special?</h3>
+        <p>Welcome to cafe, where our love for exceptional coffee and community converge! Born out of a passion for the perfect brew, we've crafted a cozy space dedicated to delivering a top-notch coffee experience. 
+          <br><br>From sourcing and roasting the finest beans to curating a menu of delightful treats, every detail reflects our commitment to quality. More than a cafe, Cafe is a vibrant community hub where connections flourish, ideas spark, and memories are made. 
+          <br><br>Whether you're a seasoned coffee connoisseur or a casual sipper, we invite you to join us at Cafe Name, where every sip tells a story.
+         </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- about section -->
+
+
+   
+
+
+
+<!-- top cards -->
+<section class="top-cards">
+  <div class="heading2">Top <span>Categories</span></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="{% static 'images2/2.jpg' alt=""%}">
+          
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="{% static "images2/falafel.jpg" alt=""%}">
+          
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="{% static "images2/20.jpg" alt=""%}">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- top cards -->
+
+
+
+
+
+
+<!-- coffe -->
+<section class="coffee" id="coffee">
+  <div class="container">
+  <div class="heading3">Coffee</div>
+</div>
+  <div class="container" id="container4">
+  <div class="row">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images\m1.png" alt=""%}">
+        <div class="card-body">
+         
+          <h3>Mocha</h3>
+          <p>199₹  </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images/m2.png" alt=""%}">
+        <div class="card-body">
+          
+          <h3>Flat white</h3>
+          <p>250₹ </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images/m3.png" alt=""%}">
+        <div class="card-body">
+       
+          <h3>Latte</h3>
+          <p>290₹</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images/m4.png" alt=""%}">
+        <div class="card-body">
+       
+          <h3>Cappuccino</h3>
+          <p>250₹ </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 50px;">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images/m5.png" alt=""%}">
+        <div class="card-body">
+      
+          <h3>Irish coffee</h3>
+          <p>200₹ </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images/m6.png" alt=""%}">
+        <div class="card-body">
+      
+          <h3>Americano</h3>
+          <p>290₹ </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images/m7.png" alt=""%}">
+        <div class="card-body">
+      
+          <h3>Hazelnut</h3>
+          <p>280₹ </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images/m8.png" alt=""%}">
+        <div class="card-body">
+     
+          <h3>Black Coffee</h3>
+          <p>120₹</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<!-- coffee -->
+
+
+
+
+
+<!-- menu -->
+<section class="menu" id="menu">
+  <div class="container">
+  <div class="heading3">Menu</div>
+</div>
+  <div class="container" id="container2">
+  <div class="row">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images2/22.jpg" alt=""%}">
+        <div class="card-body">
+          
+          <h3>Linguine pasta</h3>
+          <p>380₹  </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images2/32.jpg" alt=""%}">
+        <div class="card-body">
+          
+          <h3>Crema di tartuffoo</h3>
+          <p>550₹ </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images2/new.jpg" alt=""%}">
+        <div class="card-body">
+          
+          <h3>Shrooms & mozzarella</h3>
+          <p>320₹  <span></span></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images2/28.jpg" alt=""%}">
+        <div class="card-body">
+          
+          <h3>Loaded tacos</h3>
+          <p>320₹ </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 50px;">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images2/1.jpg" alt=""%}">
+        <div class="card-body">
+          
+          <h3>Tandoori</h3>
+          <p>280₹ </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images2/12.jpg" alt=""%}">
+        <div class="card-body">
+          
+          <h3>Grilled pepper pesto</h3>
+          <p>280₹ </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images2/17.jpg" alt=""%}">
+        <div class="card-body">
+          
+          <h3>Pasta verdure bolognese</h3>
+          <p>380₹ </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images2/27.jpg" alt=""%}">
+        <div class="card-body">
+         
+          <h3>Burrito bowl</h3>
+          <p>320₹ </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<!-- menu -->
+
+<!-- our gallary -->
+<div class="container" id="gallary">
+  <h1>Our <span>Gallary</span></h1>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images2\i13.jpg" alt=""%}">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images2\i7.jpg" alt=""%}">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images2\i12.jpg" alt=""%}">
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images2\i9.jpg" alt=""%}">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images/image5.png" alt=""%}">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="{% static "images2\i5.jpg" alt=""%}">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- our gallary -->
+
+
+
+
+<!-- contact -->
+<section class="contact" id="contact">
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+       <div class="heading6">Contact <span>Us</span></div> 
+
+       <input class="form-control" type="text" placeholder="Name" aria-label="default input example"><br>
+       <input class="form-control" type="email" placeholder="Email" aria-label="default input example"><br>
+       <input class="form-control" type="number" placeholder="Number" aria-label="default input example"><br>
+       <button id="contact-btn">Send Message</button>
+      </div>
+      <div class="col-md-5" id="col">
+        <h1>Info</h1>.n 
+        <p><i class="fa-regular fa-envelope"></i> cavecoffee@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +91 0000 000 000</p>
+       <p><i class="fa-solid fa-building-columns"></i> D 503, kashyap green city, mustafapur, kothwan, patna, 801503 </p>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- contact -->
+
+
+
+   <!-- footer -->
+   <footer id="footer">
+    <div class="footer-logo text-center"><img src="{% static "images2\logo.png" alt=""%}"></div>
+    <div class="socail-links text-center">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+   
+</footer>
+   <!-- footer -->
+
+   <a href="#" class="arrow"><i><img src="./images/up-arrow.png" alt="" width="50px"></i></a>
+
+
+  </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+{% endblock body %}

@@ -1,0 +1,100 @@
+{%extends 'base.html' %}
+{% load static %}
+{% block title %}Book My Table {% endblock title %}
+{% block body %}
+<div class="container-fluid my-4">
+            
+            </div>
+            <body>
+            <style>
+
+              body {
+                background-image: url('static/images2/i7.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            
+              }
+
+              .container {
+                position: absolute;
+                top: 55%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: white;
+                margin: 20px;
+                max-width: 300px;
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+              }
+
+              .h1, .h2, .h3 {
+                color: white; 
+                text-align: center; /* Set the color for headings */
+              }
+            
+              /* Style for form labels */
+              .label {
+                color: white; /* Set the color for labels */
+              }
+
+              .form-control {
+                width: 100%;
+              }
+            
+              /* Optional: Add margin-bottom to form elements */
+              .mb-3 {
+                margin-bottom: 15px;
+              }
+              
+              
+          
+      
+              
+          
+          
+              </style>
+            
+    <div class="row">
+      <center> 
+      <form method="post" action="/registration" class="container"> 
+  <h1 class="text-center" color="white">Book My Table</h1>
+     {% csrf_token %}
+     <div class="mb-3">
+      <link rel="stylesheet" href="{% static 'C:\Users\Ritika\OneDrive\Desktop\Cave Cafe\gymproject\static\stytle.css' %}">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" style="width: 200px">
+    </div>
+    
+  <div class="mb-3">
+
+  <label for="No. of person">Type of table</label>
+  <input type="No. of person" class="form-control" id="email" name="email" placeholder="No. of person" style="width: 200px">
+</div>
+<div class="mb-3">
+  
+
+  <label for="phone">Time</label>
+  <input type="Time" class="form-control" id="phone" name="phone" placeholder="Time" style="width: 200px">
+</div>
+
+<div class="mb-3">
+
+  <label for="phone">Date</label>
+  <input type="Date" class="form-control" id="phone" name="phone" placeholder="Date" style="width: 200px">
+</div>
+
+<div class="mb-3">
+  <center>
+  <label for="phone">Phone number</label>
+ 
+  <input type="phone" class="form-control" id="phone" name="phone" placeholder="phone" style="width: 200px;">
+</div>
+  <br>
+  <button class="btn btn-primary" type="submit">Submit</button>
+</form>
+</center>
+</div>
+</body>
+ {% endblock body %}

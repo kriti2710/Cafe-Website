@@ -1,0 +1,30 @@
+{% extends 'base.html' %} 
+{% block title %}directions {% endblock title %}
+{% block body %}
+{% load static %}
+
+<div class="container">
+    <div class="content my-3">
+        <div class="card rounded-0 shadow">
+            <div class="card-body">
+                <link rel="stylesheet" href="{% static 'C:\Users\Ritika\OneDrive\Desktop\Cave Cafe\gymproject\static\stytle.css' %}">
+                <div class="row justify-content-center" style="margin-top:20px;">
+                
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d119007.76984532517!2d72.75411634047151!3d21.23213379782644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3be04f00318aa5bd%3A0xa837b7c5cb1c6fff!2s255%2C256%2C%20School%2C%20257Laxmi%20Enclave%202%2C%20opposite%20Gajera%20Road%2C%20Rajanand%20Society%2C%20Ram%20Nagar%20Society%2C%20Katargam%2C%20Surat%2C%20Gujarat%20395004!3m2!1d21.2321538!2d72.836518!5e0!3m2!1sen!2sin!4v1712129210003!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> 
+                        allowfullscreen=""</iframe>
+
+                </div>
+                <div class="row justify-content-center" style="margin-top:20px;">
+
+                    <ul>
+                        <li>Located on There street beside of XYZ Building.</li>
+                        <li>Parking Lot is at the back.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}
